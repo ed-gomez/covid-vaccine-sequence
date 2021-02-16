@@ -18,7 +18,7 @@ def get_nucleotides(records, type):
         payload.append(row[type_dict.get(type)])
     return payload[1:]
 
-def is_nucleotide_guanine_or_cystine(nucleotide):
+def is_nucleotide_guanine_or_cytosine(nucleotide):
     return nucleotide == 'G' or nucleotide == 'C'
 
 all_nucleotides = read_csv_file('side-by-side.csv')
@@ -32,7 +32,7 @@ my_vaccine_sequence = []
 # generate my vaccine sequence
 for codon in wild_type_covid_nucleotides:
     last_nucleotide = codon[2]
-    if is_nucleotide_guanine_or_cystine(last_nucleotide):
+    if is_nucleotide_guanine_or_cytosine(last_nucleotide):
         my_vaccine_sequence.append(codon)
     else:
         convert_codon = str(codon_mapping_dict.get(codon))
