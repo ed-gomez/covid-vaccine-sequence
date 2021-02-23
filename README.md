@@ -19,3 +19,6 @@ This python script also prints the FASTA sequence for the generated genetic sequ
 Ex:
 ATGTTCGTGTTCCTGGTGCTGTTGCCCCTGGTCAGCAGCC...
 ```
+
+
+The original idea and data came from this wonderfully written blog post => https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/
