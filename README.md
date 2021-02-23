@@ -1,6 +1,6 @@
 # A python script to play around with the BioNTech/Pfizer vaccine genetic sequence. 
 
-### This script takes in the original nucleotide sequence for the spike protein and tries to insert more nucleotides that end in Guanine or Cytosine. 
+### This script takes in the original nucleotide sequence for the spike protein and tries to insert more nucleotides that end in Guanine or Cytosine
 
 Studies have shown that high guanine and cytosine content increase m-RNA levels in Mammalian cells => https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1463026/
 
